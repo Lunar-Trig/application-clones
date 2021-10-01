@@ -1,6 +1,5 @@
 body{
-    margin-left:37px;
-    margin-top: 0px;
+    cursor: pointer;
 } 
 a{
     text-decoration:none;
@@ -11,7 +10,7 @@ h1{
    font-family:Arial;
    margin-left: 1em;
    position: relative;
-    bottom:139px;
+    bottom:7em;
 }
 
 .container{
@@ -19,12 +18,14 @@ h1{
     width:83%;
     display: flex;
     padding-left: 1em;
-    flex-align: center;
+    -ms-flex-align: center;
     flex-direction: column;
-    border:22px white solid;
-    padding-bottom:124px;
+    border:10px white solid;
+    padding-bottom:54px;
     margin-left: 9em;
-    margin-bottom:3em;
+    position: relative;
+    bottom:5em;  
+    margin-bottom: 12em;
     padding-top: 0px;
 }
 
@@ -32,50 +33,32 @@ p{
     width:31%;
     position: relative;
     margin-left: 2em;
-    bottom:139px;
+    bottom:14em;
     margin-top:0px;
 }
 
-.sec-btn{
-    background-color: black;
-    color:white;
-    width: fit-content;
-
-    padding: 0.7em;
-    padding-left: 1em;
-    padding-right: 1em;
-    position: relative;
-    bottom:114px;
-    font-family: Segoe UI Semibold;
-    margin-right:2em;
-    margin-top: 0px;
-    display: inline-block;
-    margin-left:31px;
-    
-} 
 
 
 
-
-
-.sec-btn{
-    color:rgba(0, 0, 0, 0.788);
-    background-color: #000000a2;
-    position: relative;
-    bottom:131px;
-    display:inline;
-    text-decoration: none;
-}
 
 a:hover{
     text-decoration: underline;
-    text-decoration-color: white;
+    text-underline-offset: 2;
+    text-decoration-skip:spaces;
+    
+
 }
+
+
+
+
 
 .navbar{
 display: flex;
 padding: 1.5rem;
 margin: 1.2rem;
+position: relative;
+bottom:5em;
 justify-content: space-around;
 
 }
@@ -85,56 +68,98 @@ justify-content: space-around;
     word-spacing: 2em;
     position: relative;
     top:4em;
-    right:21em
+    right:16em;
 }
 
-.nav-btns:hover{
+
+#nav-links:hover{
     text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
     text-decoration-color: black;
-    text-decoration-style: wavy;
 }
 .nav-section{
-        position: relative;
-        top:4em;
-        right:7em;
         word-spacing:3em;
 }
 
-.nav-section:hover{
+#sec-links{
+     position: relative;
+     top:4em;
+     right:4em;
+}
+
+#sec-links:hover{
     text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
     text-decoration-color: black;
-    text-decoration-style: dotted;
+}
+
+
+
+.sec-btn{
+    background-color: black;
+    color:white;
+    
+    border: 1px transparent;
+    line-height: 4px;
+    padding:18px 30px;
+    position: relative;
+    bottom:14em;
+    font-family: Segoe UI Semibold;
+    margin-right:2em;
+    display: inline-block;
+    margin-left:31px;
+    
+} 
+
+.sec-btn a{
+    text-decoration:none;
+    color: white;
+}
+
+
+.sec-btn:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    display: inline-flex;
+    flex-direction: row;
 
 }
+
+
+.sec-btn span{
+    text-decoration:none;
+}
+
 
  #img-5{
     position: relative;
     left:544px;
-    top:146px;
+    top:116px;
 }
 
 #img-4{
     position: relative;
-    left:69em;
+    left:66em;
     top:3em;
 }
 
 #img-3{
     position: relative;
-    left: 79em;
+    left: 76em;
     top:3em;
 }
 
 #img-2{
     position: relative;
-    left:1095px;
+    left:1043px;
     top:36px;
 }
 
 #img-1{
      position: relative;
      top:43px;
-     right:1em;
      margin-left: 3em;
 } 
 
